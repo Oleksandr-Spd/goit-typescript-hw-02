@@ -6,7 +6,7 @@ let toggle: boolean = true;
 let empty: null = null;
 let notInitialize: undefined;
 
-let callback = (num = 10) => {
+let callback = (num: number = 10): number => {
   return 100 + num;
 };
 

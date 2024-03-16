@@ -4,9 +4,8 @@
 */
 
 interface KeyValuePair<TKey, TValue> {
-  constructor(key: TKey, value: TValue);
-  key;
-  value;
+  key: TKey;
+  value: TValue;
 }
 
 export {};
